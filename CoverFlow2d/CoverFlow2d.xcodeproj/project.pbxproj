@@ -201,6 +201,7 @@
 		0DA16F3919B702C500ED69D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA16F3819B702C500ED69D3 /* main.m */; };
 		0DA16F3D19B702C500ED69D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA16F3C19B702C500ED69D3 /* AppDelegate.m */; };
 		0DA16F4319B702C500ED69D3 /* IntroScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA16F4219B702C500ED69D3 /* IntroScene.m */; };
+		0DA16F4E19B70EFD00ED69D3 /* CoverFlow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA16F4D19B70EFD00ED69D3 /* CoverFlow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -610,6 +611,8 @@
 		0DA16F3C19B702C500ED69D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
 		0DA16F4119B702C500ED69D3 /* IntroScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IntroScene.h; path = Classes/IntroScene.h; sourceTree = "<group>"; };
 		0DA16F4219B702C500ED69D3 /* IntroScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = IntroScene.m; path = Classes/IntroScene.m; sourceTree = "<group>"; };
+		0DA16F4C19B70EFD00ED69D3 /* CoverFlow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoverFlow.h; sourceTree = "<group>"; };
+		0DA16F4D19B70EFD00ED69D3 /* CoverFlow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoverFlow.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1424,6 +1427,8 @@
 				0DA16F3C19B702C500ED69D3 /* AppDelegate.m */,
 				0DA16F4119B702C500ED69D3 /* IntroScene.h */,
 				0DA16F4219B702C500ED69D3 /* IntroScene.m */,
+				0DA16F4C19B70EFD00ED69D3 /* CoverFlow.h */,
+				0DA16F4D19B70EFD00ED69D3 /* CoverFlow.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -1547,6 +1552,7 @@
 				0DA16D6519B702C300ED69D3 /* CCDrawNode.m in Sources */,
 				0DA16E5019B702C400ED69D3 /* OALAudioTracks.m in Sources */,
 				0DA16D1C19B702C200ED69D3 /* CCEffectColor.m in Sources */,
+				0DA16F4E19B70EFD00ED69D3 /* CoverFlow.m in Sources */,
 				0DA16D1619B702C200ED69D3 /* CCEffect.m in Sources */,
 				0DA16EB419B702C400ED69D3 /* CCBAnimationManager.m in Sources */,
 				0DA16E2219B702C300ED69D3 /* CCVertex.m in Sources */,
@@ -1853,6 +1859,7 @@
 				0DA16F4819B702C500ED69D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0DA16F4919B702C500ED69D3 /* Build configuration list for PBXNativeTarget "CoverFlow2d" */ = {
 			isa = XCConfigurationList;
@@ -1861,6 +1868,7 @@
 				0DA16F4B19B702C500ED69D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
