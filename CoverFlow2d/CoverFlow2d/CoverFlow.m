@@ -21,14 +21,14 @@
 - (instancetype)initWithImageNames:(NSArray *)names {
     self = [super init];
     if (!self) return(nil);
-   
+  
     return self;
 }
 
 - (instancetype)initWithSprites:(NSArray *)sprites {
     self = [super init];
     if (!self) return(nil);
-    
+
     return self;
 }
 
